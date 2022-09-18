@@ -1,0 +1,17 @@
+***************
+*** 36,42 ****
+     }
+  
+     public T[] func_152756_c() {
+-       T[] at = (Object[])((Object[])Array.newInstance(this.field_152760_b, this.field_152762_d));
+        this.field_152761_c.readLock().lock();
+  
+        for(int i = 0; i < this.field_152762_d; ++i) {
+--- 36,42 ----
+     }
+  
+     public T[] func_152756_c() {
++       T[] at = (T[])((Object[])Array.newInstance(this.field_152760_b, this.field_152762_d));
+        this.field_152761_c.readLock().lock();
+  
+        for(int i = 0; i < this.field_152762_d; ++i) {

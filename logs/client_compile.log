@@ -1,0 +1,469 @@
+src\minecraft\net\minecraft\util\BlockPos.java:335: error: method crossProduct(Vec3i) is already defined in class BlockPos
+    public Vec3i crossProduct(Vec3i vec)
+                 ^
+src\minecraft\net\minecraft\network\PacketBuffer.java:1046: error: method retain(int) is already defined in class PacketBuffer
+    public ReferenceCounted retain(int p_retain_1_)
+                            ^
+src\minecraft\net\minecraft\network\PacketBuffer.java:1051: error: method retain() is already defined in class PacketBuffer
+    public ReferenceCounted retain()
+                            ^
+src\minecraft\net\minecraft\stats\Achievement.java:170: error: name clash: func_150953_b(Class) and func_150953_b(Class<? extends IJsonSerializable>) have the same erasure
+    public StatBase func_150953_b(Class p_150953_1_)
+                    ^
+src\minecraft\net\minecraft\stats\Achievement.java:178: error: method registerStat() is already defined in class Achievement
+    public StatBase registerStat()
+                    ^
+src\minecraft\net\minecraft\stats\Achievement.java:187: error: method initIndependentStat() is already defined in class Achievement
+    public StatBase initIndependentStat()
+                    ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderPlayer.java:243: error: method getMainModel() is already defined in class RenderPlayer
+    public ModelBase getMainModel()
+                     ^
+src\minecraft\net\minecraft\client\audio\SoundEventAccessorComposite.java:81: error: method cloneEntry() is already defined in class SoundEventAccessorComposite
+    public Object cloneEntry()
+                  ^
+src\minecraft\net\minecraft\client\audio\SoundEventAccessor.java:24: error: method cloneEntry() is already defined in class SoundEventAccessor
+    public Object cloneEntry()
+                  ^
+src\minecraft\net\minecraft\client\audio\SoundListSerializer.java:83: error: method deserialize(JsonElement,Type,JsonDeserializationContext) is already defined in class SoundListSerializer
+    public Object deserialize(JsonElement p_deserialize_1_, Type p_deserialize_2_, JsonDeserializationContext p_deserialize_3_) throws JsonParseException
+                  ^
+src\minecraft\net\minecraft\client\gui\GuiPageButtonList.java:360: error: method getListEntry(int) is already defined in class GuiPageButtonList
+    public GuiListExtended.IGuiListEntry getListEntry(int index)
+                                         ^
+src\minecraft\net\minecraft\client\gui\GuiOptionsRowList.java:69: error: method getListEntry(int) is already defined in class GuiOptionsRowList
+    public GuiListExtended.IGuiListEntry getListEntry(int index)
+                                         ^
+src\minecraft\net\minecraft\client\gui\GuiResourcePackList.java:68: error: method getListEntry(int) is already defined in class GuiResourcePackList
+    public GuiListExtended.IGuiListEntry getListEntry(int index)
+                                         ^
+src\minecraft\net\minecraft\util\ChatComponentTranslation.java:281: error: method createCopy() is already defined in class ChatComponentTranslation
+    public IChatComponent createCopy()
+                          ^
+src\minecraft\net\minecraft\client\renderer\block\model\BlockFaceUV.java:119: error: method deserialize(JsonElement,Type,JsonDeserializationContext) is already defined in class Deserializer
+        public Object deserialize(JsonElement p_deserialize_1_, Type p_deserialize_2_, JsonDeserializationContext p_deserialize_3_) throws JsonParseException
+                      ^
+src\minecraft\net\minecraft\client\renderer\block\model\BlockPart.java:229: error: method deserialize(JsonElement,Type,JsonDeserializationContext) is already defined in class Deserializer
+        public Object deserialize(JsonElement p_deserialize_1_, Type p_deserialize_2_, JsonDeserializationContext p_deserialize_3_) throws JsonParseException
+                      ^
+src\minecraft\net\minecraft\client\renderer\block\model\BlockPartFace.java:56: error: method deserialize(JsonElement,Type,JsonDeserializationContext) is already defined in class Deserializer
+        public Object deserialize(JsonElement p_deserialize_1_, Type p_deserialize_2_, JsonDeserializationContext p_deserialize_3_) throws JsonParseException
+                      ^
+src\minecraft\net\minecraft\client\renderer\block\model\ItemCameraTransforms.java:120: error: method deserialize(JsonElement,Type,JsonDeserializationContext) is already defined in class Deserializer
+        public Object deserialize(JsonElement p_deserialize_1_, Type p_deserialize_2_, JsonDeserializationContext p_deserialize_3_) throws JsonParseException
+                      ^
+src\minecraft\net\minecraft\client\renderer\block\model\ItemTransformVec3f.java:103: error: method deserialize(JsonElement,Type,JsonDeserializationContext) is already defined in class Deserializer
+        public Object deserialize(JsonElement p_deserialize_1_, Type p_deserialize_2_, JsonDeserializationContext p_deserialize_3_) throws JsonParseException
+                      ^
+src\minecraft\net\minecraft\client\renderer\block\model\ModelBlock.java:291: error: method deserialize(JsonElement,Type,JsonDeserializationContext) is already defined in class Deserializer
+        public Object deserialize(JsonElement p_deserialize_1_, Type p_deserialize_2_, JsonDeserializationContext p_deserialize_3_) throws JsonParseException
+                      ^
+src\minecraft\net\minecraft\client\renderer\block\model\ModelBlockDefinition.java:127: error: method deserialize(JsonElement,Type,JsonDeserializationContext) is already defined in class Deserializer
+        public Object deserialize(JsonElement p_deserialize_1_, Type p_deserialize_2_, JsonDeserializationContext p_deserialize_3_) throws JsonParseException
+                      ^
+src\minecraft\net\minecraft\client\renderer\block\model\ModelBlockDefinition.java:247: error: method deserialize(JsonElement,Type,JsonDeserializationContext) is already defined in class Deserializer
+            public Object deserialize(JsonElement p_deserialize_1_, Type p_deserialize_2_, JsonDeserializationContext p_deserialize_3_) throws JsonParseException
+                          ^
+src\minecraft\net\minecraft\client\renderer\entity\ArmorStandRenderer.java:71: error: method getMainModel() is already defined in class ArmorStandRenderer
+    public ModelBase getMainModel()
+                     ^
+src\minecraft\net\minecraft\entity\passive\EntityChicken.java:246: error: method createChild(EntityAgeable) is already defined in class EntityChicken
+    public EntityAgeable createChild(EntityAgeable ageable)
+                         ^
+src\minecraft\net\minecraft\entity\passive\EntityCow.java:155: error: method createChild(EntityAgeable) is already defined in class EntityCow
+    public EntityAgeable createChild(EntityAgeable ageable)
+                         ^
+src\minecraft\net\minecraft\entity\passive\EntityMooshroom.java:84: error: method createChild(EntityAgeable) is already defined in class EntityMooshroom
+    public EntityCow createChild(EntityAgeable ageable)
+                     ^
+src\minecraft\net\minecraft\entity\passive\EntityMooshroom.java:89: error: method createChild(EntityAgeable) is already defined in class EntityMooshroom
+    public EntityAgeable createChild(EntityAgeable ageable)
+                         ^
+src\minecraft\net\minecraft\entity\passive\EntityOcelot.java:392: error: method createChild(EntityAgeable) is already defined in class EntityOcelot
+    public EntityAgeable createChild(EntityAgeable ageable)
+                         ^
+src\minecraft\net\minecraft\entity\passive\EntityTameable.java:250: error: method getOwner() is already defined in class EntityTameable
+    public Entity getOwner()
+                  ^
+src\minecraft\net\minecraft\entity\passive\EntityPig.java:251: error: method createChild(EntityAgeable) is already defined in class EntityPig
+    public EntityAgeable createChild(EntityAgeable ageable)
+                         ^
+src\minecraft\net\minecraft\entity\passive\EntityRabbit.java:505: error: method createChild(EntityAgeable) is already defined in class EntityRabbit
+    public EntityAgeable createChild(EntityAgeable ageable)
+                         ^
+src\minecraft\net\minecraft\entity\passive\EntityWolf.java:644: error: method createChild(EntityAgeable) is already defined in class EntityWolf
+    public EntityAgeable createChild(EntityAgeable ageable)
+                         ^
+src\minecraft\net\minecraft\entity\passive\EntitySheep.java:370: error: method createChild(EntityAgeable) is already defined in class EntitySheep
+    public EntityAgeable createChild(EntityAgeable ageable)
+                         ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderSnowMan.java:33: error: method getMainModel() is already defined in class RenderSnowMan
+    public ModelBase getMainModel()
+                     ^
+src\minecraft\net\minecraft\client\renderer\entity\RenderVillager.java:89: error: method getMainModel() is already defined in class RenderVillager
+    public ModelBase getMainModel()
+                     ^
+src\minecraft\net\minecraft\entity\passive\EntityVillager.java:919: error: method createChild(EntityAgeable) is already defined in class EntityVillager
+    public EntityAgeable createChild(EntityAgeable ageable)
+                         ^
+src\minecraft\net\minecraft\client\resources\data\AnimationMetadataSectionSerializer.java:144: error: method deserialize(JsonElement,Type,JsonDeserializationContext) is already defined in class AnimationMetadataSectionSerializer
+    public Object deserialize(JsonElement p_deserialize_1_, Type p_deserialize_2_, JsonDeserializationContext p_deserialize_3_) throws JsonParseException
+                  ^
+src\minecraft\net\minecraft\client\resources\data\FontMetadataSectionSerializer.java:83: error: method deserialize(JsonElement,Type,JsonDeserializationContext) is already defined in class FontMetadataSectionSerializer
+    public Object deserialize(JsonElement p_deserialize_1_, Type p_deserialize_2_, JsonDeserializationContext p_deserialize_3_) throws JsonParseException
+                  ^
+src\minecraft\net\minecraft\client\resources\data\LanguageMetadataSectionSerializer.java:56: error: method deserialize(JsonElement,Type,JsonDeserializationContext) is already defined in class LanguageMetadataSectionSerializer
+    public Object deserialize(JsonElement p_deserialize_1_, Type p_deserialize_2_, JsonDeserializationContext p_deserialize_3_) throws JsonParseException
+                  ^
+src\minecraft\net\minecraft\client\resources\data\PackMetadataSectionSerializer.java:47: error: method deserialize(JsonElement,Type,JsonDeserializationContext) is already defined in class PackMetadataSectionSerializer
+    public Object deserialize(JsonElement p_deserialize_1_, Type p_deserialize_2_, JsonDeserializationContext p_deserialize_3_) throws JsonParseException
+                  ^
+src\minecraft\net\minecraft\client\resources\data\TextureMetadataSectionSerializer.java:66: error: method deserialize(JsonElement,Type,JsonDeserializationContext) is already defined in class TextureMetadataSectionSerializer
+    public Object deserialize(JsonElement p_deserialize_1_, Type p_deserialize_2_, JsonDeserializationContext p_deserialize_3_) throws JsonParseException
+                  ^
+src\minecraft\net\minecraft\entity\ai\attributes\ServersideAttributeMap.java:89: error: method getAttributeInstanceByName(String) is already defined in class ServersideAttributeMap
+    public IAttributeInstance getAttributeInstanceByName(String attributeName)
+                              ^
+src\minecraft\net\minecraft\entity\ai\attributes\ServersideAttributeMap.java:94: error: method getAttributeInstance(IAttribute) is already defined in class ServersideAttributeMap
+    public IAttributeInstance getAttributeInstance(IAttribute attribute)
+                              ^
+src\minecraft\net\minecraft\item\ItemBlock.java:183: error: method setUnlocalizedName(String) is already defined in class ItemBlock
+    public Item setUnlocalizedName(String unlocalizedName)
+                ^
+src\minecraft\net\minecraft\network\ServerStatusResponse.java:106: error: method deserialize(JsonElement,Type,JsonDeserializationContext) is already defined in class Serializer
+            public Object deserialize(JsonElement p_deserialize_1_, Type p_deserialize_2_, JsonDeserializationContext p_deserialize_3_) throws JsonParseException
+                          ^
+src\minecraft\net\minecraft\network\ServerStatusResponse.java:204: error: method deserialize(JsonElement,Type,JsonDeserializationContext) is already defined in class Serializer
+            public Object deserialize(JsonElement p_deserialize_1_, Type p_deserialize_2_, JsonDeserializationContext p_deserialize_3_) throws JsonParseException
+                          ^
+src\minecraft\net\minecraft\network\ServerStatusResponse.java:273: error: method deserialize(JsonElement,Type,JsonDeserializationContext) is already defined in class Serializer
+        public Object deserialize(JsonElement p_deserialize_1_, Type p_deserialize_2_, JsonDeserializationContext p_deserialize_3_) throws JsonParseException
+                      ^
+src\minecraft\net\minecraft\server\integrated\IntegratedPlayerList.java:58: error: method getServerInstance() is already defined in class IntegratedPlayerList
+    public MinecraftServer getServerInstance()
+                           ^
+src\minecraft\net\minecraft\server\management\PlayerProfileCache.java:404: error: method deserialize(JsonElement,Type,JsonDeserializationContext) is already defined in class PlayerProfileCache.Serializer
+        public Object deserialize(JsonElement p_deserialize_1_, Type p_deserialize_2_, JsonDeserializationContext p_deserialize_3_) throws JsonParseException
+                      ^
+src\minecraft\net\minecraft\server\management\UserList.java:204: error: method deserialize(JsonElement,Type,JsonDeserializationContext) is already defined in class UserList.Serializer
+        public Object deserialize(JsonElement p_deserialize_1_, Type p_deserialize_2_, JsonDeserializationContext p_deserialize_3_) throws JsonParseException
+                      ^
+  where K is a type-variable:
+    K extends Object declared in class UserList
+src\minecraft\net\minecraft\util\Cartesian.java:178: error: method next() is already defined in class ProductIterator
+            public Object next()
+                          ^
+  where T is a type-variable:
+    T extends Object declared in class ProductIterator
+src\minecraft\net\minecraft\util\ChatComponentScore.java:109: error: method createCopy() is already defined in class ChatComponentScore
+    public IChatComponent createCopy()
+                          ^
+src\minecraft\net\minecraft\util\ChatComponentSelector.java:73: error: method createCopy() is already defined in class ChatComponentSelector
+    public IChatComponent createCopy()
+                          ^
+src\minecraft\net\minecraft\util\ChatComponentText.java:71: error: method createCopy() is already defined in class ChatComponentText
+    public IChatComponent createCopy()
+                          ^
+src\minecraft\net\minecraft\util\ChatStyle.java:648: error: method deserialize(JsonElement,Type,JsonDeserializationContext) is already defined in class Serializer
+        public Object deserialize(JsonElement p_deserialize_1_, Type p_deserialize_2_, JsonDeserializationContext p_deserialize_3_) throws JsonParseException
+                      ^
+src\minecraft\net\minecraft\util\IChatComponent.java:290: error: method deserialize(JsonElement,Type,JsonDeserializationContext) is already defined in class Serializer
+        public Object deserialize(JsonElement p_deserialize_1_, Type p_deserialize_2_, JsonDeserializationContext p_deserialize_3_) throws JsonParseException
+                      ^
+src\minecraft\net\minecraft\util\JsonSerializableSet.java:46: error: method delegate() is already defined in class JsonSerializableSet
+    protected Collection delegate()
+                         ^
+src\minecraft\net\minecraft\util\JsonSerializableSet.java:51: error: method delegate() is already defined in class JsonSerializableSet
+    protected Object delegate()
+                     ^
+src\minecraft\net\minecraft\world\gen\ChunkProviderSettings.java:671: error: method deserialize(JsonElement,Type,JsonDeserializationContext) is already defined in class Serializer
+        public Object deserialize(JsonElement p_deserialize_1_, Type p_deserialize_2_, JsonDeserializationContext p_deserialize_3_) throws JsonParseException
+                      ^
+src\minecraft\net\minecraft\util\ObjectIntIdentityMap.java:21: error: no suitable method found for add(Object)
+            this.objectList.add((Object)null);
+                           ^
+    method Collection.add(T) is not applicable
+      (argument mismatch; Object cannot be converted to T)
+    method List.add(T) is not applicable
+      (argument mismatch; Object cannot be converted to T)
+  where T is a type-variable:
+    T extends Object declared in class ObjectIntIdentityMap
+src\minecraft\net\minecraft\block\state\BlockState.java:30: error: name clash: apply(IProperty) in <anonymous net.minecraft.block.state.BlockState$1> overrides a method whose erasure is the same as another method, yet neither overrides the other
+        public String apply(IProperty p_apply_1_)
+                      ^
+  first method:  apply(Object) in <anonymous net.minecraft.block.state.BlockState$1>
+  second method: apply(F) in Function
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\block\state\BlockState.java:34: error: name clash: apply(Object) in <anonymous net.minecraft.block.state.BlockState$1> and apply(F) in Function have the same erasure, yet neither overrides the other
+        public Object apply(Object p_apply_1_)
+                      ^
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\block\state\BlockState.java:48: error: name clash: compare(IProperty,IProperty) in <anonymous net.minecraft.block.state.BlockState$2> overrides a method whose erasure is the same as another method, yet neither overrides the other
+            public int compare(IProperty p_compare_1_, IProperty p_compare_2_)
+                       ^
+  first method:  compare(Object,Object) in <anonymous net.minecraft.block.state.BlockState$2>
+  second method: compare(T,T) in Comparator
+  where T is a type-variable:
+    T extends Object declared in interface Comparator
+src\minecraft\net\minecraft\block\state\BlockState.java:52: error: name clash: compare(Object,Object) in <anonymous net.minecraft.block.state.BlockState$2> and compare(T,T) in Comparator have the same erasure, yet neither overrides the other
+            public int compare(Object p_compare_1_, Object p_compare_2_)
+                       ^
+  where T is a type-variable:
+    T extends Object declared in interface Comparator
+src\minecraft\net\minecraft\block\state\BlockState.java:74: error: incompatible types: ImmutableList<StateImplementation> cannot be converted to ImmutableList<IBlockState>
+        this.validStates = ImmutableList.copyOf(lvt_4_1_);
+                                               ^
+src\minecraft\net\minecraft\block\state\BlockStateBase.java:17: error: name clash: apply(Entry<IProperty,Comparable>) in <anonymous net.minecraft.block.state.BlockStateBase$1> overrides a method whose erasure is the same as another method, yet neither overrides the other
+        public String apply(Entry<IProperty, Comparable> p_apply_1_)
+                      ^
+  first method:  apply(Object) in <anonymous net.minecraft.block.state.BlockStateBase$1>
+  second method: apply(F) in Function
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\block\state\BlockStateBase.java:29: error: name clash: apply(Object) in <anonymous net.minecraft.block.state.BlockStateBase$1> and apply(F) in Function have the same erasure, yet neither overrides the other
+        public Object apply(Object p_apply_1_)
+                      ^
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:515: error: name clash: apply(ItemStack) in <anonymous net.minecraft.item.Item$1> overrides a method whose erasure is the same as another method, yet neither overrides the other
+            public String apply(ItemStack p_apply_1_)
+                          ^
+  first method:  apply(Object) in <anonymous net.minecraft.item.Item$1>
+  second method: apply(F) in Function
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:519: error: name clash: apply(Object) in <anonymous net.minecraft.item.Item$1> and apply(F) in Function have the same erasure, yet neither overrides the other
+            public Object apply(Object p_apply_1_)
+                          ^
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:527: error: name clash: apply(ItemStack) in <anonymous net.minecraft.item.Item$2> overrides a method whose erasure is the same as another method, yet neither overrides the other
+            public String apply(ItemStack p_apply_1_)
+                          ^
+  first method:  apply(Object) in <anonymous net.minecraft.item.Item$2>
+  second method: apply(F) in Function
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:531: error: name clash: apply(Object) in <anonymous net.minecraft.item.Item$2> and apply(F) in Function have the same erasure, yet neither overrides the other
+            public Object apply(Object p_apply_1_)
+                          ^
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:539: error: name clash: apply(ItemStack) in <anonymous net.minecraft.item.Item$3> overrides a method whose erasure is the same as another method, yet neither overrides the other
+            public String apply(ItemStack p_apply_1_)
+                          ^
+  first method:  apply(Object) in <anonymous net.minecraft.item.Item$3>
+  second method: apply(F) in Function
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:543: error: name clash: apply(Object) in <anonymous net.minecraft.item.Item$3> and apply(F) in Function have the same erasure, yet neither overrides the other
+            public Object apply(Object p_apply_1_)
+                          ^
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:550: error: name clash: apply(ItemStack) in <anonymous net.minecraft.item.Item$4> overrides a method whose erasure is the same as another method, yet neither overrides the other
+            public String apply(ItemStack p_apply_1_)
+                          ^
+  first method:  apply(Object) in <anonymous net.minecraft.item.Item$4>
+  second method: apply(F) in Function
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:554: error: name clash: apply(Object) in <anonymous net.minecraft.item.Item$4> and apply(F) in Function have the same erasure, yet neither overrides the other
+            public Object apply(Object p_apply_1_)
+                          ^
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:562: error: name clash: apply(ItemStack) in <anonymous net.minecraft.item.Item$5> overrides a method whose erasure is the same as another method, yet neither overrides the other
+            public String apply(ItemStack p_apply_1_)
+                          ^
+  first method:  apply(Object) in <anonymous net.minecraft.item.Item$5>
+  second method: apply(F) in Function
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:566: error: name clash: apply(Object) in <anonymous net.minecraft.item.Item$5> and apply(F) in Function have the same erasure, yet neither overrides the other
+            public Object apply(Object p_apply_1_)
+                          ^
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:577: error: name clash: apply(ItemStack) in <anonymous net.minecraft.item.Item$6> overrides a method whose erasure is the same as another method, yet neither overrides the other
+            public String apply(ItemStack p_apply_1_)
+                          ^
+  first method:  apply(Object) in <anonymous net.minecraft.item.Item$6>
+  second method: apply(F) in Function
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:581: error: name clash: apply(Object) in <anonymous net.minecraft.item.Item$6> and apply(F) in Function have the same erasure, yet neither overrides the other
+            public Object apply(Object p_apply_1_)
+                          ^
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:588: error: name clash: apply(ItemStack) in <anonymous net.minecraft.item.Item$7> overrides a method whose erasure is the same as another method, yet neither overrides the other
+            public String apply(ItemStack p_apply_1_)
+                          ^
+  first method:  apply(Object) in <anonymous net.minecraft.item.Item$7>
+  second method: apply(F) in Function
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:592: error: name clash: apply(Object) in <anonymous net.minecraft.item.Item$7> and apply(F) in Function have the same erasure, yet neither overrides the other
+            public Object apply(Object p_apply_1_)
+                          ^
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:601: error: name clash: apply(ItemStack) in <anonymous net.minecraft.item.Item$8> overrides a method whose erasure is the same as another method, yet neither overrides the other
+            public String apply(ItemStack p_apply_1_)
+                          ^
+  first method:  apply(Object) in <anonymous net.minecraft.item.Item$8>
+  second method: apply(F) in Function
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:605: error: name clash: apply(Object) in <anonymous net.minecraft.item.Item$8> and apply(F) in Function have the same erasure, yet neither overrides the other
+            public Object apply(Object p_apply_1_)
+                          ^
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:616: error: name clash: apply(ItemStack) in <anonymous net.minecraft.item.Item$9> overrides a method whose erasure is the same as another method, yet neither overrides the other
+            public String apply(ItemStack p_apply_1_)
+                          ^
+  first method:  apply(Object) in <anonymous net.minecraft.item.Item$9>
+  second method: apply(F) in Function
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:620: error: name clash: apply(Object) in <anonymous net.minecraft.item.Item$9> and apply(F) in Function have the same erasure, yet neither overrides the other
+            public Object apply(Object p_apply_1_)
+                          ^
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:636: error: name clash: apply(ItemStack) in <anonymous net.minecraft.item.Item$10> overrides a method whose erasure is the same as another method, yet neither overrides the other
+            public String apply(ItemStack p_apply_1_)
+                          ^
+  first method:  apply(Object) in <anonymous net.minecraft.item.Item$10>
+  second method: apply(F) in Function
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:640: error: name clash: apply(Object) in <anonymous net.minecraft.item.Item$10> and apply(F) in Function have the same erasure, yet neither overrides the other
+            public Object apply(Object p_apply_1_)
+                          ^
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:647: error: name clash: apply(ItemStack) in <anonymous net.minecraft.item.Item$11> overrides a method whose erasure is the same as another method, yet neither overrides the other
+            public String apply(ItemStack p_apply_1_)
+                          ^
+  first method:  apply(Object) in <anonymous net.minecraft.item.Item$11>
+  second method: apply(F) in Function
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:651: error: name clash: apply(Object) in <anonymous net.minecraft.item.Item$11> and apply(F) in Function have the same erasure, yet neither overrides the other
+            public Object apply(Object p_apply_1_)
+                          ^
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:705: error: name clash: apply(ItemStack) in <anonymous net.minecraft.item.Item$12> overrides a method whose erasure is the same as another method, yet neither overrides the other
+            public String apply(ItemStack p_apply_1_)
+                          ^
+  first method:  apply(Object) in <anonymous net.minecraft.item.Item$12>
+  second method: apply(F) in Function
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:709: error: name clash: apply(Object) in <anonymous net.minecraft.item.Item$12> and apply(F) in Function have the same erasure, yet neither overrides the other
+            public Object apply(Object p_apply_1_)
+                          ^
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:716: error: name clash: apply(ItemStack) in <anonymous net.minecraft.item.Item$13> overrides a method whose erasure is the same as another method, yet neither overrides the other
+            public String apply(ItemStack p_apply_1_)
+                          ^
+  first method:  apply(Object) in <anonymous net.minecraft.item.Item$13>
+  second method: apply(F) in Function
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:720: error: name clash: apply(Object) in <anonymous net.minecraft.item.Item$13> and apply(F) in Function have the same erasure, yet neither overrides the other
+            public Object apply(Object p_apply_1_)
+                          ^
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:762: error: name clash: apply(ItemStack) in <anonymous net.minecraft.item.Item$14> overrides a method whose erasure is the same as another method, yet neither overrides the other
+            public String apply(ItemStack p_apply_1_)
+                          ^
+  first method:  apply(Object) in <anonymous net.minecraft.item.Item$14>
+  second method: apply(F) in Function
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:766: error: name clash: apply(Object) in <anonymous net.minecraft.item.Item$14> and apply(F) in Function have the same erasure, yet neither overrides the other
+            public Object apply(Object p_apply_1_)
+                          ^
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:797: error: name clash: apply(ItemStack) in <anonymous net.minecraft.item.Item$15> overrides a method whose erasure is the same as another method, yet neither overrides the other
+            public String apply(ItemStack p_apply_1_)
+                          ^
+  first method:  apply(Object) in <anonymous net.minecraft.item.Item$15>
+  second method: apply(F) in Function
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:801: error: name clash: apply(Object) in <anonymous net.minecraft.item.Item$15> and apply(F) in Function have the same erasure, yet neither overrides the other
+            public Object apply(Object p_apply_1_)
+                          ^
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:810: error: name clash: apply(ItemStack) in <anonymous net.minecraft.item.Item$16> overrides a method whose erasure is the same as another method, yet neither overrides the other
+            public String apply(ItemStack p_apply_1_)
+                          ^
+  first method:  apply(Object) in <anonymous net.minecraft.item.Item$16>
+  second method: apply(F) in Function
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:814: error: name clash: apply(Object) in <anonymous net.minecraft.item.Item$16> and apply(F) in Function have the same erasure, yet neither overrides the other
+            public Object apply(Object p_apply_1_)
+                          ^
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+src\minecraft\net\minecraft\item\Item.java:822: error: name clash: apply(ItemStack) in <anonymous net.minecraft.item.Item$17> overrides a method whose erasure is the same as another method, yet neither overrides the other
+            public String apply(ItemStack p_apply_1_)
+                          ^
+  first method:  apply(Object) in <anonymous net.minecraft.item.Item$17>
+  second method: apply(F) in Function
+  where F,T are type-variables:
+    F extends Object declared in interface Function
+    T extends Object declared in interface Function
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+100 errors

@@ -1,0 +1,17 @@
+***************
+*** 57,63 ****
+           blockstate$stateimplementation1.func_177235_a(map);
+        }
+  
+-       this.field_177625_e = ImmutableList.copyOf(list);
+     }
+  
+     public ImmutableList<IBlockState> func_177619_a() {
+--- 57,63 ----
+           blockstate$stateimplementation1.func_177235_a(map);
+        }
+  
++       this.field_177625_e = ImmutableList.<IBlockState>copyOf(list);
+     }
+  
+     public ImmutableList<IBlockState> func_177619_a() {

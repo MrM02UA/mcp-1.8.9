@@ -1,0 +1,17 @@
+***************
+*** 219,225 ****
+              }
+           }
+        });
+-       return listenablefuture;
+     }
+  
+     public static int func_76181_a() throws IOException {
+--- 219,225 ----
+              }
+           }
+        });
++       return (ListenableFuture<Object>) listenablefuture;
+     }
+  
+     public static int func_76181_a() throws IOException {

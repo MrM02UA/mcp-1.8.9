@@ -1,0 +1,57 @@
+package net.minecraft.client.model;
+
+import net.minecraft.entity.Entity;
+import net.minecraft.util.MathHelper;
+
+public class ModelEnderMite extends ModelBase
+{
+    private static final int[][] field_178716_a = new int[][] {{4, 3, 2}, {6, 4, 5}, {3, 3, 1}, {1, 2, 1}};
+    private static final int[][] field_178714_b = new int[][] {{0, 0}, {0, 5}, {0, 14}, {0, 18}};
+    private static final int field_178715_c = field_178716_a.length;
+    private final ModelRenderer[] field_178713_d;
+
+    public ModelEnderMite()
+    {
+        this.field_178713_d = new ModelRenderer[field_178715_c];
+        float lvt_1_1_ = -3.5F;
+
+        for (int lvt_2_1_ = 0; lvt_2_1_ < this.field_178713_d.length; ++lvt_2_1_)
+        {
+            this.field_178713_d[lvt_2_1_] = new ModelRenderer(this, field_178714_b[lvt_2_1_][0], field_178714_b[lvt_2_1_][1]);
+            this.field_178713_d[lvt_2_1_].addBox((float)field_178716_a[lvt_2_1_][0] * -0.5F, 0.0F, (float)field_178716_a[lvt_2_1_][2] * -0.5F, field_178716_a[lvt_2_1_][0], field_178716_a[lvt_2_1_][1], field_178716_a[lvt_2_1_][2]);
+            this.field_178713_d[lvt_2_1_].setRotationPoint(0.0F, (float)(24 - field_178716_a[lvt_2_1_][1]), lvt_1_1_);
+
+            if (lvt_2_1_ < this.field_178713_d.length - 1)
+            {
+                lvt_1_1_ += (float)(field_178716_a[lvt_2_1_][2] + field_178716_a[lvt_2_1_ + 1][2]) * 0.5F;
+            }
+        }
+    }
+
+    /**
+     * Sets the models various rotation angles then renders the model.
+     */
+    public void render(Entity entityIn, float p_78088_2_, float p_78088_3_, float p_78088_4_, float p_78088_5_, float p_78088_6_, float scale)
+    {
+        this.setRotationAngles(p_78088_2_, p_78088_3_, p_78088_4_, p_78088_5_, p_78088_6_, scale, entityIn);
+
+        for (int lvt_8_1_ = 0; lvt_8_1_ < this.field_178713_d.length; ++lvt_8_1_)
+        {
+            this.field_178713_d[lvt_8_1_].render(scale);
+        }
+    }
+
+    /**
+     * Sets the model's various rotation angles. For bipeds, par1 and par2 are used for animating the movement of arms
+     * and legs, where par1 represents the time(so that arms and legs swing back and forth) and par2 represents how
+     * "far" arms and legs can swing at most.
+     */
+    public void setRotationAngles(float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch, float scaleFactor, Entity entityIn)
+    {
+        for (int lvt_8_1_ = 0; lvt_8_1_ < this.field_178713_d.length; ++lvt_8_1_)
+        {
+            this.field_178713_d[lvt_8_1_].rotateAngleY = MathHelper.cos(ageInTicks * 0.9F + (float)lvt_8_1_ * 0.15F * (float)Math.PI) * (float)Math.PI * 0.01F * (float)(1 + Math.abs(lvt_8_1_ - 2));
+            this.field_178713_d[lvt_8_1_].rotationPointX = MathHelper.sin(ageInTicks * 0.9F + (float)lvt_8_1_ * 0.15F * (float)Math.PI) * (float)Math.PI * 0.1F * (float)Math.abs(lvt_8_1_ - 2);
+        }
+    }
+}
